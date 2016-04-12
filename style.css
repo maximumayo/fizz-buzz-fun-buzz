@@ -1,0 +1,25 @@
+body {
+    height: 95vh;
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.fizz {
+    color: red;
+}
+
+.buzz {
+    color: blue;
+}
+
+.fizzbuzz {
+    color: green;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#display {
+    text-align: center;
+}
