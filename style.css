@@ -2,6 +2,7 @@ body {
     height: 95vh;
     width: 95vw;
     margin: 0 auto;
+    background-color: #3be6c4;
 }
 
 .fizz {
