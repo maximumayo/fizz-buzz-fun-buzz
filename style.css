@@ -7,10 +7,12 @@ body {
 
 .fizz {
     color: red;
+    font-size: 2em;
 }
 
 .buzz {
     color: blue;
+    font-size: 2em;
 }
 
 .fizzbuzz {
