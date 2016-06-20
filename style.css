@@ -27,3 +27,8 @@ body {
 #display {
     text-align: center;
 }
+
+.end {
+    color: yellow;
+    font-size: 3em;
+}

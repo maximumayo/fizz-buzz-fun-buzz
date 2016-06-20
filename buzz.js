@@ -6,6 +6,10 @@ function fizzBuzzer() {
             $('#display').append("<div class='fizzbuzz'>fizzbuzz</div>");
             console.log("fizzbuzz");
         }
+        else if (i === 200) {
+            $('#display').append("<div class='end'>End</div>");
+            console.log("end");
+        }
         else if (i % 5 === 0) {
             $('#display').append("<div class='buzz'>buzz</div>");
             console.log("buzz");
@@ -22,10 +26,10 @@ function fizzBuzzer() {
 }
 
 $(document).ready(function () {
-    $('#buzzer').click(function(){
+    $('#buzzer').click(function () {
         fizzBuzzer();
     });
-    $('#clear').click(function(){
+    $('#clear').click(function () {
         $('#display').html(" ");
     });
 
